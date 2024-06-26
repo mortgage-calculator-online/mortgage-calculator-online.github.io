@@ -1,0 +1,48 @@
+/* styles.css */
+.LSD_Jumbotron {
+    background: linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.1)), url('../Assets/tierra-mallorca-JXI2Ap8dTNc-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbotron {
+    background-color: rgba(255,255,255,0);
+    border-radius: 0;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #222;
+}
+
+    .nav-link:hover {
+        color: #005BDC;
+    }
+
+.jumbotron-heading {
+    margin: 9px auto 8px;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 35px;
+    opacity: 1;
+    transition: opacity 0.24s ease-in-out;
+    word-break: break-word;
+}
+
+.attachment-homepage-list-size {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.LSD-Blog-Container {
+    padding-top: 20px;
+}
+
+.LSD-entry {
+    word-break: break-word;
+}

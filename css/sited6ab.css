@@ -1,0 +1,100 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*Blog css*/
+/*@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+*/
+/*@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}*/
+
+a {
+    text-decoration: none
+}
+
+    a:hover {
+        text-decoration: underline
+    }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.LSD-Blog-Container {
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1001px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .LSD-Blog-Container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .LSD-Blog-Container {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
+
+@media (max-width: 1300px) {
+    .LSD-Blog-Container {
+        max-width: 1000px;
+    }
+}
+
+.LSD-entry {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    line-height: 1.7;
+    word-break: break-word;
+}
+
+.LSD_BackgroundImage2 {
+    background-image: url('../Assets/Logo_small_red.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*min-height: 50px;*/
+    transition: .3s ease;
+}
+
+@media (min-width: 768px) {
+    .LSD_BackgroundImage2 {
+        /*        display: none;
+*/
+    }
+}
+
+
+    /*end BLog css*/
