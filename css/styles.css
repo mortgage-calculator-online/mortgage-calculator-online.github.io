@@ -72,7 +72,7 @@ body {
 }
 
 .LSD_BackgroundImage2 {
-    background-image: url('Assets/Logo_small_tab.png');
+    background-image: url('../Assets/Logo_small_tab.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
