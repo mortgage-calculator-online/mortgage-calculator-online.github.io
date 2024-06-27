@@ -1,48 +1,78 @@
-/* styles.css */
+/* Custom styles for the website */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar .nav-link {
+    color: #000000;
+}
+
+.navbar .nav-link:hover {
+    color: #0056b3;
+}
+
+.jumbotron-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 .LSD_Jumbotron {
     background: linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.1)), url('../Assets/tierra-mallorca-JXI2Ap8dTNc-unsplash.jpg');
     background-size: cover;
     background-position: center center;
 }
 
-.jumbotron {
-    background-color: rgba(255,255,255,0);
-    border-radius: 0;
+.LSD-Blog-Container .row {
+    margin: 0;
+    padding: 0;
 }
 
-.navbar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.article-category {
+    margin-bottom: 1rem;
 }
 
-.nav-link {
-    color: #222;
+.article-title {
+    color: #ffffff;
 }
 
-    .nav-link:hover {
-        color: #005BDC;
-    }
-
-.jumbotron-heading {
-    margin: 9px auto 8px;
-    font-weight: 600;
-    line-height: 40px;
-    font-size: 35px;
-    opacity: 1;
-    transition: opacity 0.24s ease-in-out;
-    word-break: break-word;
+.article-date {
+    margin-bottom: 1rem;
 }
 
-.attachment-homepage-list-size {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    max-width: 100%;
+.author-link {
+    display: flex;
+    align-items: center;
 }
 
-.LSD-Blog-Container {
-    padding-top: 20px;
+.author-img {
+    margin-right: 10px;
+    width: 36px;
+    border-radius: 50%;
 }
 
-.LSD-entry {
-    word-break: break-word;
+.main-content {
+    padding-top: 55px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    text-align: center;
+}
+
+.blog-pagination a {
+    margin: 0 5px;
+}
+
+.LSD_BackgroundImage2 {
+    background-image: url('Assets/Logo_small_tab.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
