@@ -1,5 +1,5 @@
 .LSD_Jumbotron {
-    background: linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.1)), url('Assets/tierra-mallorca-bXmuxaT6PjY-unsplash.jpg');
+    background: linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.1)), url('../Assets/tierra-mallorca-bXmuxaT6PjY-unsplash.jpg');
     background-size: cover;
     background-position: center center;
 }
