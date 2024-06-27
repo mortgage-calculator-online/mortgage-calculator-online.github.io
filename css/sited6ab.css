@@ -62,7 +62,7 @@ a:hover {
 }
 
 .LSD_BackgroundImage2 {
-  background-image: url('Assets/Logo_small_red.png'); /* Ensure the path is correct */
+  background-image: url('../Assets/Logo_small_red.png'); /* Ensure the path is correct */
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: contain;
