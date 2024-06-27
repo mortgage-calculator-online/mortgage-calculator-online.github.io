@@ -17,84 +17,85 @@ body {
   margin-bottom: 60px;
 }
 
-/*Blog css*/
-/*@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-*/
-/*@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}*/
-
 a {
-    text-decoration: none
+  text-decoration: none;
 }
 
-    a:hover {
-        text-decoration: underline
-    }
+a:hover {
+  text-decoration: underline;
+}
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.LSD-Blog-Container {
-}
+.LSD-Blog-Container {}
 
 @media (min-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1001px;
-    }
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1001px;
+  }
 }
 
 @media (max-width: 1150px) {
-    .LSD-Blog-Container {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 1150px) {
-    .LSD-Blog-Container {
-        padding-left: 3em;
-        padding-right: 3em;
-    }
+  .LSD-Blog-Container {
+    max-width: 100%;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 }
 
 @media (max-width: 1300px) {
-    .LSD-Blog-Container {
-        max-width: 1000px;
-    }
+  .LSD-Blog-Container {
+    max-width: 1000px;
+  }
 }
 
 .LSD-entry {
-    padding-top: 42px;
-    padding-bottom: 42px;
-    line-height: 1.7;
-    word-break: break-word;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  line-height: 1.7;
+  word-break: break-word;
 }
 
 .LSD_BackgroundImage2 {
-    background-image: url('../Assets/Logo_small_red.png');
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: contain;
-    /*min-height: 50px;*/
-    transition: .3s ease;
+  background-image: url('Assets/Logo_small_red.png'); /* Ensure the path is correct */
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: .3s ease;
 }
 
 @media (min-width: 768px) {
-    .LSD_BackgroundImage2 {
-        /*        display: none;
-*/
-    }
+  .LSD_BackgroundImage2 {
+    /* display: none; */
+  }
 }
 
+.LSD_Jumbotron {
+  background: linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.1)), url('Assets/tierra-mallorca-JXI2Ap8dTNc-unsplash.jpg'); /* Ensure the path is correct */
+  background-size: cover;
+  background-position: center center;
+}
 
-    /*end BLog css*/
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 100px;
+  background-color: green;
+}
+
+#section2 {
+  height: 100px;
+  background-color: silver;
+}
